@@ -1,0 +1,167 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+.app {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(#121212));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), #121212);
+  background-color: #555;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#form-control {
+  background-color: #3a3a3a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.2)));
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  color: #e6e6e6;
+  max-width: 80%;
+}
+
+#form-control -internal-autofill-selected {
+  background-color: transparent !important;
+  background-image: transparent !important;
+  color: transparent !important;
+}
+
+#form-control:focus {
+  background-color: #414141;
+}
+
+.song-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  float: left;
+  width: 80%;
+  margin-bottom: 55px;
+}
+
+.track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.track__image {
+  height: 64px;
+  width: 64px;
+  cursor: pointer;
+}
+
+.track__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Circular Spotify Tx T Black";
+  font-weight: 400;
+}
+
+.track__details__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 16px;
+  color: #e6e6e6;
+}
+
+.track__details__artist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.spotify-player {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: "Circular Spotify Tx T Black";
+  font-weight: 400;
+  background-color: #282828;
+  z-index: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+/*# sourceMappingURL=index.css.map */

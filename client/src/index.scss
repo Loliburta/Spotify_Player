@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+@import "./components/App/App";
+@import "./components/Login/Login";
+@import "./components/Dashboard/Dashboard";
+@import "./components/TrackSearchResult/TrackSearchResult";
+@import "./components/Player/Player";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

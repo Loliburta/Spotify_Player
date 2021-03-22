@@ -1,0 +1,34 @@
+.track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0;
+}
+.track__image {
+  height: 64px;
+  width: 64px;
+  cursor: pointer;
+
+}
+.track__details {
+  display: flex;
+  margin-left: 8px;
+  flex-direction: column;
+  font-family: "Circular Spotify Tx T Black";
+  font-weight: 400;
+  
+}
+.track__details__title {
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  color: rgb(230,230,230);
+
+}
+.track__details__artist {
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+

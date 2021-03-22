@@ -1,0 +1,39 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#form-control {
+  background-color: rgb(58, 58, 58);
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  border: none;
+  outline: none;
+  box-shadow: none;
+  transition: background-color 0.5s;
+  color: rgb(230, 230, 230);
+  max-width: 80%;
+  -internal-autofill-selected {
+    background-color: transparent !important;
+    background-image: transparent !important;
+    color: transparent !important;
+  }
+}
+
+#form-control:focus {
+  background-color: rgb(65, 65, 65);
+}
+.song-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  float: left;
+  width: 80%;
+  margin-bottom: 55px;
+}
